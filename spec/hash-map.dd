@@ -482,6 +482,9 @@ $(P Properties for associative arrays are:)
         $(TROW $(D .update(Key key, Value delegate() create, Value delegate(Value) update)),
         $(ARGS Looks up $(D key); if it exists applies the $(D update) delegate
         else evaluates the $(D create) delegate and adds it to the associative array))
+        $(TROW $(D .remove(Key key), $(ARGS Removes $(D key) from the associative array
+        if it exists and returns $(D true),
+        otherwise nothing is done and $(D false) is returned.))
     )
 
 $(H2 $(LNAME2 examples, Examples))
