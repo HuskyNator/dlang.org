@@ -325,6 +325,8 @@ $(H3 $(LEGACY_LNAME2 Integer Promotions, integer-promotions, Integer Promotions)
     column.
     )
 
+    $(P Integer promotion is applied prior to unary - and + operations.)
+
     $(P Integer promotion applies to each operand of a binary expression:)
 
     $(SPEC_RUNNABLE_EXAMPLE_COMPILE
